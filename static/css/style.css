@@ -1,0 +1,46 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    background: #0B2333;
+}
+
+.container{
+ display: block;
+ margin: 0 auto;
+    height: 100%;
+
+}
+
+
+#scratchCard {
+    width: 750px;
+    height: 750px;
+ 
+    display: block;
+    margin: 0 auto;
+    vertical-align: middle;
+
+}
+
+
+.pageContentWrapper{
+    margin-bottom:100px;
+  } 
+
+@media all and (max-width:786px){
+
+    #scratchCard {
+        width: 350px;
+        height: 350px;
+     
+        display: block;
+        margin: 0 auto;
+    
+    }
+}
