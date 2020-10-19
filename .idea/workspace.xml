@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="741f5deb-2738-4fc9-865b-dadea52a0c52" name="Default Changelist" comment="change php to html">
       <change beforePath="$PROJECT_DIR$/smartphone/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/smartphone/index.html" afterDir="false" />
@@ -50,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603035524042</updated>
       <workItem from="1603035525220" duration="4511000" />
-      <workItem from="1603119496024" duration="330000" />
+      <workItem from="1603119496024" duration="671000" />
     </task>
     <task id="LOCAL-00001" summary="change php to html">
       <created>1603040064495</created>
@@ -64,6 +82,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change php to html" />

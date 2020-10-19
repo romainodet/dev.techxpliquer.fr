@@ -29,7 +29,7 @@
         $('#scratchCard').wScratchPad('reset');
         var sp = $("#scratchCard").wScratchPad();
         sp.wScratchPad('bg', 'images/' + getRandomInt(1,6) + '.png');
-
+        sp.wScratchPad('cursor', 'url("../static/cursor/coin.png") 5 5, default');
 	}
 
     function getRandomInt(min, max) {
@@ -54,7 +54,7 @@
         },
         scratchUp: null,
         // function(e, percent){ console.log("scratchUp:" +  percent); },
-        cursor      : 'pointer' // Set cursor.
+        cursor      : 'url("../static/cursor/coin.png") 10 10, default' // Set cursor.
     });
 
 
