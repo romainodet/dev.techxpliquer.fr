@@ -13,15 +13,25 @@
 
 <body>
 <div class="container">
+	<h1 class="title">Gratte pour connaître ta marque de smartphone</h1>
 
 	<div id="scratchCard">
 
 	</div>
+	<button class="btn" value="Reset" onclick="reset()"/>Une nouvelle carte !</button>
 
 </div>
 <script src="../static/js/jquery.min.js"></script>
 <script src="../static/js/wScratchPad.min.js"></script>
 <script>
+
+	function reset(){
+        $('#scratchCard').wScratchPad('reset');
+        var sp = $("#scratchCard").wScratchPad();
+        sp.wScratchPad('bg', 'images/' + getRandomInt(1,6) + '.png');
+
+	}
+
     function getRandomInt(min, max) {
         min = Math.ceil(min);
         max = Math.floor(max);
@@ -30,7 +40,7 @@
     }
     $('#scratchCard').wScratchPad({
         size        : 30,          // The size of the brush/scratch.
-        bg          : 'images/' + getRandomInt(1, 6) + '.png',  // Background (image path or hex color).
+        bg          : 'images/' + getRandomInt(1,6) + '.png',  // Background (image path or hex color).
         // fg          : '#0195FF',  // Foreground (image path or hex color).
         fg          : 'images/foreground.png',  // Foreground (image path or hex color).
         realtime    : true,       // Calculates percentage in realitime.
