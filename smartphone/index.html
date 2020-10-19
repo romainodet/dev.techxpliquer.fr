@@ -10,8 +10,8 @@ title: Gratte ta tech
 	<button type="button" class="btn btn-primary btn-lg btn-block" onclick="reset();" style="background: #58BBAC!important;">je rejoue !</button>
 
 </div>
-<script src="../static/js/jquery.min.js"></script>
-<script src="../static/js/wScratchPad.min.js"></script>
+<script src="{{ "/static/js/jquery.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/static/js/wScratchPad.min.js" | prepend: site.baseurl }}"></script>
 <script>
 	function reset(){
         $('#scratchCard').wScratchPad('reset');
@@ -38,6 +38,6 @@ title: Gratte ta tech
         },
         scratchUp: null,
         // function(e, percent){ console.log("scratchUp:" +  percent); },
-        cursor      : 'url("../static/cursor/coin.png") 10 10, default' // Set cursor.
+        cursor      : 'url("{{ "/static/cursor/coin.png" | prepend: site.baseurl }}") 10 10, default' // Set cursor.
     });
 </script>
