@@ -22,7 +22,7 @@ title: TechXpliquer
 email: contact@techxpliquer.fr
 description: >- # this means to ignore newlines until "baseurl:"
   TechXpliquer
-baseurl: "gratTechno" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 
 # Exclude from processing.
 # The following items will not be processed, by default.
