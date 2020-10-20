@@ -3,8 +3,6 @@ layout: default
 title: Gratte ta tech
 ---
 <div class="container">
-    <h1 class="text-center title">Gratte pour connaître ta marque de smartphone</h1>
-
 	<div id="scratchCard">
 	</div>
 	<button type="button" class="btn btn-primary btn-lg btn-block" onclick="reset();" style="background: #58BBAC!important;">je rejoue !</button>
@@ -26,7 +24,7 @@ title: Gratte ta tech
     }
     $('#scratchCard').wScratchPad({
         size        : 30,          // The size of the brush/scratch.
-        bg          : 'images/' + getRandomInt(1,6) + '.png',  // Background (image path or hex color).
+        bg          : 'images/' + getRandomInt(1,7) + '.png',  // Background (image path or hex color).
         // fg          : '#0195FF',  // Foreground (image path or hex color).
         fg          : 'images/foreground.png',  // Foreground (image path or hex color).
         realtime    : true,       // Calculates percentage in realitime.
